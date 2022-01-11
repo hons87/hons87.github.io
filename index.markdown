@@ -30,7 +30,9 @@ Outside the Madsen building at University of Sydney.
 
 ![1987](./1987.jpeg)
 
-## Photos of us in 2021
+## Photos of us in 2022
+
+Taken by Stuart Pook.
 
 ![Standing](./Standing.jpeg)
 ![Sitting](./Sitting.jpeg)
