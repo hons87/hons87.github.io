@@ -2,7 +2,7 @@
 # Feel free to add content and custom Front Matter to this file.
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
-title: "welcome to basser.cs.su.oz.au"
+title: "basser.cs.su.oz.au"
 ---
 ## basser.cs.su.oz.au
 
@@ -28,32 +28,11 @@ Running on a DEC VAX 11/780 with 8MB memory
 
 Outside the Madsen building at University of Sydney.
 
-<div class="photoswipe-gallery">
-  {% include photo.html
-      url="/assets/images/1987.jpeg"
-      thumb_width="1280" thumb_height="807"
-      full_width="2560" full_height="1613"
-      caption="1987" alt="1987"
-  %}
-</div>
+[![1987](/assets/images/1987.jpeg)](/assets/images/1987.jpeg)
 
 ## Photos of us in 2022
 
 Taken by Stuart Pook.
+[![Standing outside Madsen building](/assets/images/Standing.jpeg)](/assets/images/Standing.jpeg)
+[![Sitting outside Madsen building](/assets/images/Sitting.jpeg)](/assets/images/Sitting.jpeg)
 
-<div class="photoswipe-gallery">
-  {% include photo.html
-      url="/assets/images/Standing.jpeg"
-      thumb_width="640" thumb_height="459"
-      full_width="2560" full_height="1836"
-      caption="Standing outside Madsen building" alt="Standing outside Madsen building"
-  %}
-  {% include photo.html
-      url="/assets/images/Sitting.jpeg"
-      thumb_width="640" thumb_height="381"
-      full_width="2560" full_height="1523"
-      caption="Sitting outside Madsen building" alt="Sitting outside Madsen building"
-  %}
-</div>
-
-{% include photoswipe.html %}

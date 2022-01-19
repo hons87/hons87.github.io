@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
-    <link rel="stylesheet" href="/assets/js/photoswipe/photoswipe.css"/>
+    <link rel="sitemap" type="application/xml" title="Sitemap" href="/sitemap.xml" />
     {% include head-custom.html %}
 
 {% seo %}
@@ -27,13 +27,20 @@
           {% endif %}
           <a href="{{ site.github.repository_url }}" class="btn btn-github"><span class="icon"></span>View on GitHub</a>
         </section>
+
+        {% include search-lunr.html %}
       </div>
     </header>
-
+    
     <div class="container">
+      {% include breadcrumbs.html %}
       <section id="main_content">
         {{ content }}
       </section>
     </div>
+    <script type="text/javascript" src="/assets/js/lightbox.js"></script>
+    <link rel="stylesheet" href="/assets/css/lightbox.css">
+    {% include open-embed.html %}
+    {% include new-window-fix.html %}
   </body>
 </html>

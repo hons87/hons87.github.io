@@ -1,0 +1,28 @@
+{
+    "configurations": [
+        {
+            "name": "Launch via NPM",
+            "request": "launch",
+            "runtimeArgs": [
+                "dev"
+            ],
+            "runtimeExecutable": "yarn",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "type": "pwa-node"
+        },
+        {
+            "name": "Launch Microsoft Edge and open the Edge DevTools",
+            "request": "launch",
+            "type": "vscode-edge-devtools.debug",
+            "url": "" // Provide your project's url to finish configuring
+        }
+        {
+            "name": "Jekyll",
+            "request": "launch",
+            "type": "vscode-edge-devtools.debug",
+            "url": "localhost:4000" // Provide your project's url to finish configuring
+        }
+    ]
+}
