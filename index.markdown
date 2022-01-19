@@ -28,11 +28,32 @@ Running on a DEC VAX 11/780 with 8MB memory
 
 Outside the Madsen building at University of Sydney.
 
-![1987](./1987.jpeg)
+<div class="photoswipe-gallery">
+  {% include photo.html
+      url="/assets/images/1987.jpeg"
+      thumb_width="1280" thumb_height="807"
+      full_width="2560" full_height="1613"
+      caption="1987" alt="1987"
+  %}
+</div>
 
 ## Photos of us in 2022
 
 Taken by Stuart Pook.
 
-![Standing](./Standing.jpeg)
-![Sitting](./Sitting.jpeg)
+<div class="photoswipe-gallery">
+  {% include photo.html
+      url="/assets/images/Standing.jpeg"
+      thumb_width="640" thumb_height="459"
+      full_width="2560" full_height="1836"
+      caption="Standing outside Madsen building" alt="Standing outside Madsen building"
+  %}
+  {% include photo.html
+      url="/assets/images/Sitting.jpeg"
+      thumb_width="640" thumb_height="381"
+      full_width="2560" full_height="1523"
+      caption="Sitting outside Madsen building" alt="Sitting outside Madsen building"
+  %}
+</div>
+
+{% include photoswipe.html %}
