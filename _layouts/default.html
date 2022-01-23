@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
     <link rel="sitemap" type="application/xml" title="Sitemap" href="/sitemap.xml" />
+    {% include lightbox2-css.html %}
     {% include head-custom.html %}
 
 {% seo %}
@@ -21,14 +22,13 @@
         <h2>{{ site.description | default: site.github.project_tagline }}</h2>
 
         <section id="downloads">
-          {% if site.show_downloads %}
-            <a href="{{ site.github.zip_url }}" class="btn">Download as .zip</a>
-            <a href="{{ site.github.tar_url }}" class="btn">Download as .tar.gz</a>
-          {% endif %}
+          {% for nav in site.data.navigation %}
+            <a href="{{ nav.link }}" class="btn">{{ nav.name }}</a>
+          {% endfor %}
           <a href="{{ site.github.repository_url }}" class="btn btn-github"><span class="icon"></span>View on GitHub</a>
+          {% include search-lunr.html %}
         </section>
 
-        {% include search-lunr.html %}
       </div>
     </header>
     
@@ -38,9 +38,8 @@
         {{ content }}
       </section>
     </div>
-    <script type="text/javascript" src="/assets/js/lightbox.js"></script>
-    <link rel="stylesheet" href="/assets/css/lightbox.css">
     {% include open-embed.html %}
     {% include new-window-fix.html %}
+    {% include lightbox2.html %}
   </body>
 </html>

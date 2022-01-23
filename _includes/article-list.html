@@ -1,0 +1,10 @@
+<ul>
+  {% for article in site.posts %}
+    {% if article.layout == "post" %}
+      <li>
+        <a href="{{ article.url }}"><font size="4"><strong>{{ article.title }}</strong></font></a>
+        {{ article.excerpt }}
+      </li>
+    {% endif %}
+  {% endfor %}
+</ul>

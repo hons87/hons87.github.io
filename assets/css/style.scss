@@ -3,6 +3,105 @@
 
 @import "{{ site.theme }}";
 
-.invisible {
-    display: none;
+.btn {
+  display: inline-block;
+  background: -webkit-linear-gradient(top, rgba(80, 80, 80, 0.3), rgba(60, 60, 60, 0.3) 50%, rgba(40, 80, 40, 0.3) 50%, rgba(0, 40, 0, 0.3));
+  padding: 8px 18px;
+  border-radius: 50px;
+  border: 2px solid rgba(0, 0, 0, 0.7);
+  border-bottom: 2px solid rgba(0, 0, 0, 0.7);
+  border-top: 2px solid rgba(0, 0, 0, 1);
+  color: rgba(170, 117, 159, 0.8);
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+  text-decoration: none;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.75);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.05);
+}
+
+.masonry-wrapper {
+  padding: 1.5em;
+  max-width: 1280px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.masonry {
+  columns: 1;
+  column-gap: 10px;
+}
+.masonry-item {
+  display: inline-block;
+  vertical-align: top;
+  margin-bottom: 10px;
+}
+@media only screen and (max-width: 1023px) and (min-width: 768px) {  .masonry {
+    columns: 2;
   }
+}
+@media only screen and (min-width: 1024px) {
+  .masonry {
+    columns: 3;
+  }
+}
+.masonry-item, .masonry-content {
+  border-radius: 4px;
+  overflow: hidden;
+}
+.masonry-item {
+  filter: drop-shadow(0px 2px 2px rgba(128, 255, 128, .5));
+  transition: filter .25s ease-in-out;
+}
+.masonry-item:hover {
+  filter: drop-shadow(0px 5px 5px rgba(128, 255, 128, .5));
+}
+.masonry-content {
+  overflow: hidden;
+}
+.masonry-item {
+  color: #eaeaea;
+  background-color: #555;
+}
+.masonry-title, .masonry-description {
+  margin: 0;
+}
+.masonry-title {
+  font-weight: 700;
+  font-size: 1.1rem;
+  padding: 1rem 0.5rem;
+}
+.masonry-description {
+  font-size: 0.75rem;
+  border-top: 1px solid rgba(128, 128, 128, .05);
+}
+.masonry-footer {
+  font-size: .75em;
+  opacity: .25;
+  text-align: center;
+  padding-top: 3em; 
+  padding-bottom: 3em;
+  margin-bottom: -1.5em;
+  transition: opacity 1s ease-in-out;
+}
+.masonry-footer a {
+  color: currentColor;
+}
+.masonry-item:hover, .masonry-item:active, .masonry-item:focus {
+  opacity: .75;
+}
+
+$apple-blossom: #ac4142;
+$alto: #d0d0d0;
+$bouquet: #aa759f;
+$chelsea-cucumber: #90a959;
+$cod-grey: #151515;
+$conifer: #b5e853;
+$dove-grey: #666;
+$gallery: #eaeaea;
+$grey: #888;
+$gulf-stream: #75b5aa;
+$hippie-blue: #6a9fb5;
+$potters-clay: #8f5536;
+$rajah: #f4bf75;
+$raw-sienna: #d28445;
+$silver-chalice: #aaa;

@@ -1,0 +1,6 @@
+- name: About
+  link: /About
+- name: Photo Albums
+  link: /Albums
+- name: Articles
+  link: /Articles
