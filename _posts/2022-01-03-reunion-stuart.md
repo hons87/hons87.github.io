@@ -3,7 +3,7 @@ layout: album
 title:  "2022 Reunion (Stuart's photos)"
 author: Stuart Pook
 date:   2022-01-03 17:00:00 +1100
-categories: Albums
+categories: albums
 tags:
 - reunion
 - madsen

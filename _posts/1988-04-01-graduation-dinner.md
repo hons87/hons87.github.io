@@ -3,7 +3,7 @@ layout: album
 title:  "Graduation Dinner"
 author: Chris Tham
 date:   1988-04-01 18:00:00 +1100
-categories: Albums
+categories: albums
 tags:
 - graduation
 - dinner

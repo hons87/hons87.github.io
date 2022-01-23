@@ -5,7 +5,7 @@ description: A beautiful operating system, still healthy after 50 years.
 author: Chris Tham
 date: 2020-06-10 10:00:00 +1100
 image: /assets/images/Unix_history-simple.png
-categories: Articles
+categories: articles
 tags:
   - UNIX
 ---

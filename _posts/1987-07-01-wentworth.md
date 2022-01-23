@@ -3,7 +3,7 @@ layout: album
 title:  "Wentworth Building Food Court"
 author: Chris Tham
 date:   1987-07-01 10:00:00 +1100
-categories: Albums
+categories: albums
 tags:
 - Wentworth
 - food

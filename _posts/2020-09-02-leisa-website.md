@@ -4,7 +4,7 @@ title: Leisa's website
 author: Leisa Condie
 date: 2020-09-02 09:00:00 +1100
 image: /assets/images/KIseals.jpg
-categories: Articles
+categories: articles
 tags:
   - Leisa
 ---

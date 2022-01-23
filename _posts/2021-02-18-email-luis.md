@@ -4,7 +4,7 @@ title: Email from Luis Esteban
 author: Luis Esteban
 date: 2021-02-18 19:00:00 +1100
 image: /assets/images/luis.jpeg
-categories: Articles
+categories: articles
 tags:
   - Leisa
 ---

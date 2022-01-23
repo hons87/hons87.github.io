@@ -3,7 +3,7 @@ layout: album
 title:  "Graduation"
 author: Chris Tham
 date:   1988-04-01 10:00:00 +1100
-categories: Albums
+categories: albums
 tags: graduation
 album: graduation
 image: /assets/albums/graduation/Graduation.jpeg

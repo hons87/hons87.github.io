@@ -4,7 +4,7 @@ title: Leisa Condie Defence Women in STEM Undergraduate Scholarship
 author: Hugh McGuiness
 date: 2021-08-21 17:00:00 +1100
 image: /assets/images/leisa-condie-scholarship.png
-categories: Articles
+categories: articles
 tags:
   - Leisa
 ---

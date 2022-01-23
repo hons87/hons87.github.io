@@ -5,7 +5,7 @@ author:
 - Stuart Pook
 - Chris Tham
 date:   2022-01-03 19:00:00 +1100
-categories: Albums
+categories: albums
 tags:
 - reunion
 - dinner

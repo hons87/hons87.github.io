@@ -3,7 +3,7 @@ layout: album
 title:  "Common Room"
 author: Chris Tham
 date:   1987-11-01 10:00:00 +1100
-categories: Albums
+categories: albums
 tags:
 - madsen
 - common-room

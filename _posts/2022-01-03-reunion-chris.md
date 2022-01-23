@@ -3,7 +3,7 @@ layout: album
 title:  "2022 Reunion (Chris's photos)"
 author: Chris Tham
 date:   2022-01-03 15:00:00 +1100
-categories: Albums
+categories: albums
 tags:
 - reunion
 - madsen
