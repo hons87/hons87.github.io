@@ -10,7 +10,7 @@ tags:
 - reunion
 - dinner
 album: reunion-dinner
-image: assets/albums/reunion-dinner/Honours Reunion (Stuart) (2).jpeg
+image: /assets/albums/reunion-dinner/Honours Reunion (Stuart) (2).jpeg
 ---
 For our 2022 reunion, we had dinner at Otto Noorba - a Turkish-Italian
 restaurant on Glebe Point Rd. Photos by Stuart Pook and Chris Tham.
