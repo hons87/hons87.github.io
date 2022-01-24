@@ -1,7 +1,7 @@
 ---
 title: About US
-slug: About
-permalink: /About/
+slug: about
+permalink: /about/
 ---
 # About Us
 
