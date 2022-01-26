@@ -2,12 +2,15 @@
 layout: post
 title: Release Notes
 author: Chris Tham
-date: 2022-01-24 17:00:00 +1100
+date: 2022-01-26 17:00:00 +1100
 categories: articles
 tags:
   - release
 ---
 Release History
+
+2022-01-28
+: Fixed about page not loading, deleted photo of painting
 
 2022-01-24
 : corrected minor errors (changed squash to badminton), added photos from Hugh
