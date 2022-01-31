@@ -1,7 +1,7 @@
 ---
 layout: album
 title:  Photos from Hugh
-author: Hugh Mcguiness
+author: Hugh McGuinness
 date:   1987-12-01 10:00:00 +1100
 categories: albums
 tags:
