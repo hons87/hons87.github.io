@@ -10,4 +10,4 @@ tags:
 ---
 Powerhouse TV segment featuring Judy Kay, shots of the Macintosh computer lab at Basser, and a short interview with Leisa Condie.
 
-{% include video.html src="/assets/videos/1988_07_27_Powerhouse2.mp4" %}
+{% include video.html src="https://media.githubusercontent.com/media/hons87/hons87.github.io/main/assets/videos/1988_07_27_Powerhouse2.mp4" %}
