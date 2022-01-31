@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "ABC Powerhouse Video"
+title:  "Powerhouse Video"
 author: Gary Warner
 date:   1988-07-27 10:00:00 +1100
 categories: videos
