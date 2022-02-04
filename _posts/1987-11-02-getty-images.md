@@ -1,7 +1,7 @@
 ---
 layout: album
 title:  Getty Images
-author: Hugh Mcguiness
+author: Hugh McGuinness
 date:   1987-11-02 10:00:00 +1100
 categories: albums
 tags:
