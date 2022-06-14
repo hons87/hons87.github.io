@@ -152,7 +152,7 @@ presented by the Acting Dean of the Faculty of Science, Dr Damon Ridley
   > Thesis: *Pasting diagrams in n-Categories with abblications to coherence theorems and categories of paths*
 
 ### DEGREE OF MASTER OF SCIENCE
-presented by the Acme Dean of the Faculty of Science, Dr Damon Ridley
+presented by the Acting Dean of the Faculty of Science, Dr Damon Ridley
 
 - Julia Elizabeth Catherine Guinan. BAppSc NSIT7 (Immunology)
 - Malcolm Raymond Glennie Holmes, Bc (Agricultural Chemistry)
