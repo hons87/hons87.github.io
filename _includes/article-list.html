@@ -1,6 +1,6 @@
 <ul>
   {% for article in site.posts %}
-    {% if article.layout == "post" %}
+    {% if article.categories contains "articles" %}
       <li>
         <a href="{{ article.url }}"><font size="4"><strong>{{ article.title }}</strong></font></a>
         {{ article.excerpt }}

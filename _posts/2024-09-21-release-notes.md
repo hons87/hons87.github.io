@@ -2,12 +2,18 @@
 layout: post
 title: Release Notes
 author: Chris Tham
-date: 2022-03-09 08:00:00 +1100
+date: 2024-09-21 16:00:00 +1100
 categories: articles
 tags:
   - release
 ---
 Release History
+
+2024-09-21
+: Added Thomas Hardjono's talk on 2024-09-20, and reunion yum0cha on 2024-09-21.
+
+2023-03-05
+: Added yumcha reunion
 
 2022-03-09
 : Hugh added scans of graduation booklet, which Chris OCRed and converted to an article.
